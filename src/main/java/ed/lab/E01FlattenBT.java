@@ -6,7 +6,7 @@ public class E01FlattenBT {
     public void flatten(TreeNode<Integer> root) {
         if (root == null) return;
 
-        TreeNode<Integer> current = root;
+        TreeNode<Integer> current = root; //hola
 
         while (current != null) {
             if (current.left != null) {
